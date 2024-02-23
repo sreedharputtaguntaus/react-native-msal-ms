@@ -1,6 +1,6 @@
 {
-  "name": "react-native-msal",
-  "version": "1.0.3",
+  "name": "react-native-msal-ms",
+  "version": "1.0.0",
   "description": "React Native wrapper for iOS and Android",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -31,14 +31,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stashenergy/react-native-msal.git"
+    "url": "git+https://github.com/sreedharputtaguntaus/react-native-msal-ms.git"
   },
-  "author": "Stash Energy <dev@stash.energy> (https://stash.energy)",
+  "author": "Sreedhar Puttagunta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stashenergy/react-native-msal/issues"
+    "url": "https://github.com/sreedharputtaguntaus/react-native-msal-ms/issues"
   },
-  "homepage": "https://github.com/stashenergy/react-native-msal#readme",
+  "homepage": "https://github.com/sreedharputtaguntaus/react-native-msal-ms#readme",
   "dependencies": {
     "@azure/msal-browser": "^2.1.0",
     "@expo/config-plugins": "^4.0.6"
