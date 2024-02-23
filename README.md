@@ -1,37 +1,36 @@
 # react-native-msal
 
-[![npm latest version](https://img.shields.io/npm/v/react-native-msal/latest.svg)](https://www.npmjs.com/package/react-native-msal)
-[![npm beta version](https://img.shields.io/npm/v/react-native-msal/beta.svg)](https://www.npmjs.com/package/react-native-msal)
-![ci status](https://github.com/stashenergy/react-native-msal/workflows/CI/badge.svg)
+[![npm latest version](https://img.shields.io/npm/v/react-native-msal-ms/latest.svg)](https://www.npmjs.com/package/react-native-msal-ms)
+[![npm beta version](https://img.shields.io/npm/v/react-native-msal-ms/beta.svg)](https://www.npmjs.com/package/react-native-msal-ms)
+![ci status](https://github.com/sreedharputtaguntaus/react-native-msal-ms/workflows/CI/badge.svg)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 <p align="center">
   <img src="_assets/ReactNativeMSALLogo.webp" width="300">
 </p>
 
-## Live Demo (Web)
-
-[https://stashenergy.github.io/react-native-msal/](https://stashenergy.github.io/react-native-msal/)
-
 ## Table of Contents
 
-- [Install](#install)
-- [Setup](#setup)
-- [Use](#use)
-  - [PublicClientApplication class](#publicClientApplication-class)
-  - [B2C Applications](#b2c-applications)
-- [Example app](#example-app)
-- [Migrating between major versions](#migrating-between-major-versions)
+- [react-native-msal](#react-native-msal)
+  - [Table of Contents](#table-of-contents)
+  - [Install](#install)
+  - [Setup](#setup)
+    - [Expo](#expo)
+    - [Non-expo](#non-expo)
+  - [Use](#use)
+    - [B2C Applications](#b2c-applications)
+  - [Example App](#example-app)
+  - [Migrating between major versions](#migrating-between-major-versions)
 
 ## Install
 
 **Requires React Native >=0.61**
 
 Stable version:
-`$ yarn add react-native-msal`
+`$ yarn add react-native-msal-ms`
 
 Beta version:
-`$ yarn add react-native-msal@beta`
+`$ yarn add react-native-msal-ms@beta`
 
 Don't forget to run `npx pod-install` after!
 
@@ -48,8 +47,8 @@ Follow the [Android setup guide](/docs/android_setup.md) and the [iOS setup guid
 ## Use
 
 ```typescript
-import PublicClientApplication from 'react-native-msal';
-import type { MSALConfiguration /*, etc */ } from 'react-native-msal';
+import PublicClientApplication from 'react-native-msal-ms';
+import type { MSALConfiguration /*, etc */ } from 'react-native-msal-ms';
 
 const config: MSALConfiguration = {
   auth: {
@@ -115,7 +114,6 @@ To run the example locally, first clone the repo and run `$ yarn` to bootstrap t
 
 iOS: `$ yarn example ios`
 Android: `$ yarn example android`
-Web: `$ yarn example web` (the example app is also running live [here](https://stashenergy.github.io/react-native-msal/))
 
 If you want to run the example using your own Azure application information:
 
@@ -123,7 +121,7 @@ If you want to run the example using your own Azure application information:
    - Android: `msauth://com.example/Xo8WBi6jzSxKDVR4drqm84yr9iU%3D`
    - iOS: `msauth.com.example://auth`
    - Web (SPA): `http://localhost:19006`
-1. Update the `b2cConfig` and `b2cScopes` variables in `msalConfig.ts` with your details.
+2. Update the `b2cConfig` and `b2cScopes` variables in `msalConfig.ts` with your details.
 
 ## Migrating between major versions
 

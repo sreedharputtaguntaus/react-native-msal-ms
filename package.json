@@ -1,6 +1,6 @@
 {
   "name": "react-native-msal-ms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native wrapper for iOS and Android",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/sreedharputtaguntaus/react-native-msal-ms#readme",
   "dependencies": {
-    "@azure/msal-browser": "^2.1.0",
+    "@azure/msal-browser": "^3.10.0",
     "@expo/config-plugins": "^4.0.6"
   },
   "devDependencies": {
